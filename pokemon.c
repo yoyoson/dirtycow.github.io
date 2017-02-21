@@ -1,4 +1,4 @@
-// $ echo pikachu|sudo tee pokeball;ls -l pokeball;gcc -pthread pokemon.c -o d;./d pokeball miltank;cat pokeball
+// $ echo pikachu|sudo tee pokeball;sudo chmod 0404 pokeball;ls -l pokeball;gcc -pthread pokemon.c -o d;./d pokeball miltank;cat pokeball
 #include <fcntl.h>                        //// pikachu
 #include <pthread.h>                      //// -rw-r--r-- 1 root root 8 Apr 4 12:34 pokeball
 #include <string.h>                       //// pokeball
